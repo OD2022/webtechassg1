@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    font-family:"Verdana";
+}
+  .header{
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS';
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 1em;
+    background-color: black;
+    }
+
+
+#name{
+  font-size: 0.8em bold;
+}
+
+#university, a{
+  font-size: 0.7em;
+}
+
+main{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+main{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.headings{
+  font-size: 0.7em;
+}
+
+.horizontalLine{  
+    border: none; 
+    border-bottom: 1px solid black;
+   }
+
+#education, #training, #awards, #activities, #skills, #projects, #references{
+  display: flex;
+  flex-direction: row;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+#content{
+  text-alignment: center;
+  width: 100%;
+  }
+}
+
+.left-text{
+  text-align: left;
+  font-size: 0.7em;
+}
+
+
+.right-text{
+  text-align: right;
+  font-size: 0.7em;
+}
+
+.left-element{
+  width:80%;
+}
+
+.right-element{
+  justify-content: right;
+}
+
+#awards > .right-element{
+  width: 20%;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-size: 10pt;
+  text-align: center;
+  height: 10%;
+  }
